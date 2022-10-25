@@ -1,0 +1,67 @@
+/* Seção de conteudo (Bio) */
+
+.bio {
+    width: 100%;
+    padding: 0 auto;
+    margin: 2rem auto;
+}
+.bio_box {
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+}
+.bio_box-left {
+    background-color: #4A403B;
+    padding: 2rem;
+}
+.bio_box_text {
+    margin-bottom: 8rem;
+}
+.font-estilizada {
+    color: #EAE0CC;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.font-estilizada-large {
+    font-size: 1.5rem;
+}
+.font-colorida {
+    color: #D28969;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.bio_box_button {
+    background-color: #C9ADA1;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 1rem;
+}
+.bio_box_button:hover {
+    background-color: #D28969;
+}
+
+.bio_box-right {
+    background-image: url('/image/instagram.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Seção de conteudo (Descrição-Paginas) */
+.descricao-paginas {
+    width: 100%;
+}
+.descricao-paginas_titulo {
+    text-align: start;
+    height: 4rem;
+}
+
+.descricao-paginas_nome {
+    font-weight: 600;
+    width: 10%;
+}

@@ -1,0 +1,65 @@
+.tabela_progressos {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.tabela_progressos_titulos {
+    text-align: left;
+    width: 50%;
+}
+
+
+.tabela_progressos_descricao {
+    width: 15%;
+}
+
+.tabela_progressos_descricao > p {
+    margin: 8px 8px;
+}
+
+.tabela_progressos_progresso {
+    width: 35%;
+}
+
+.tabela_progressos_progresso > progress {
+    width: 100%;
+    height: 30px;
+}  
+
+.tabela_titulo_profissao {
+    font-weight: bolder;
+    margin: 20px 0;
+    height: 20px;
+}
+
+.tabela_data {
+    width: 20%;
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+.tabela_funcoes > p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.tabela_funcoes {
+    width: 80px
+}

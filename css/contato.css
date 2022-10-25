@@ -1,0 +1,16 @@
+.formulario_titulo {
+    font-weight: bolder
+   }
+   
+   .formulario_campo {
+       width: 25%;
+   }
+   
+   .formulario_submit {
+       width: 5%;
+       background-color: #D28969;
+   }
+   
+   a {
+      margin: 5px;
+   }

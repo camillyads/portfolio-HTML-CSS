@@ -1,0 +1,62 @@
+.cabecalho {
+    min-height: 25vh;
+}
+
+/* Tabela Perfil */
+.cabecalho_perfil {
+    background: rgb(201,173,161);
+    background: -moz-linear-gradient(180deg, rgba(201,173,161,1) 0%, rgba(210,137,105,1) 30%, rgba(74,48,37,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(201,173,161,1) 0%, rgba(210,137,105,1) 30%, rgba(74,48,37,1) 100%);
+    background: linear-gradient(180deg, rgba(201,173,161,1) 0%, rgba(210,137,105,1) 30%, rgba(74,48,37,1) 100%);
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c9ada1",endColorstr="#4a3025",GradientType=1); 
+    padding: 1rem 10%;
+}
+.cabecalho_perfil_imagem {
+    width: 120px;
+}
+.perfil_imagem_img {
+    border-radius: 60px;
+    width: 120px
+}
+.cabecalho_perfil_nome {
+    padding-left: 1rem;
+}
+.perfil_nome__p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.cabecalho_perfil_curso {
+    padding-left: 1rem;
+}
+.perfil_curso_p {
+    margin-bottom: 2rem;
+}
+
+/* Menu de Navegação */
+.cabecalho_menu {
+    padding: 1rem 10%;
+    width: 100%;
+}
+.cabecalho_menu__link {
+    text-align: center;
+    width: 20%;
+}
+.cabecalho_menu__link > a {
+    border-radius: 5px;
+    color: #4A403B;
+    font-weight: 600;
+    font-style: italic;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+}
+.cabecalho_menu__link > a:hover {
+    background-color: #4A403B;
+    color: #EAE0CC;
+}
+
+.menu_link__active > a {
+    background-color: #4A403B;
+    color: #EAE0CC;
+}

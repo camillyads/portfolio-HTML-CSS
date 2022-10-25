@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal</title>
+
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet"> 
+
+  <!-- CSS Fixo-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/rodape.css">
+
+  <!-- CSS Variavel -->
+  <link rel="stylesheet" href="css/contato.css">
+
+</head>
+<body>
+
+  <header class="cabecalho">
+    <table class="cabecalho_perfil">
+      <tr>
+        <td class="cabecalho_perfil_imagem" rowspan="2"><img class="perfil_imagem_img" src="image/fotoperfil.jpg" alt="Minha image de perfil"></td>
+        <td class="cabecalho_perfil_nome"><h1 class="perfil_nome__p">Camilly Assis</h1></td>
+      </tr>
+      <tr>
+        <td class="cabecalho_perfil_curso"><p class="perfil_curso_p">Analise e Desenvolvimento de Sistemas</p></td>
+      </tr>
+    </table>
+    <table class="cabecalho_menu">
+      <tr>
+        <td class="cabecalho_menu__link"><a href="/index.html">Principal</a></td>
+        <td class="cabecalho_menu__link"><a href="/quemsou.html">Quem Sou</a></td>
+        <td class="cabecalho_menu__link"><a href="/projetos.html">Projetos</a></td>
+        <td class="cabecalho_menu__link menu_link__active"><a href="/contato.html">Contato</a></td>
+      </tr>
+    </table>
+  </header>
+
+  <!-- ################################# -->
+
+  <main class="conteudo">
+    <table width="100%">
+      <tr>
+        <td colspan="4">
+          <h2>Entre em contato</h2>
+          <p>preencha todos os campos do formulário a seguir e em até 24 horas te responderei.
+             Será um prazer atendê-lo</p><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <form>
+            <label class="formulario_titulo" for="slctAssunto">Assunto</label><br>
+            <select class="formulario_campo" name="Assunto" id="slctAssunto">
+              <option value="Dúvidas">Dúvidas</option>
+              <option value="Orçamentos">Orçamentos</option>
+              <option value="Ajuda">Ajuda</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label class="formulario_titulo" for="txtNomeCompleto">Nome Completo</label><br>
+            <input class="formulario_campo" type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Nome completo">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label class="formulario_titulo" for="txtEmail">E-mail</label><br>
+            <input class="formulario_campo" type="text" name="Email" id="txtEmail" placeholder="email@gmail.com">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label class="formulario_titulo" for="txtTelefone">Telefone</label><br>
+            <input class="formulario_campo" type="text" name="Telefone" id="txtTelefone>" placeholder="(27) 00000-0000">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label class="formulario_titulo" for="txtMensagem">Mensagem</label><br>
+          <textarea class="formulario_campo" name="Mensagem" id="txtMensagem" cols="30" rows="10">
+          </textarea><br>
+          <input class="formulario_submit" type="Submit" value="Enviar">
+        </td>
+      </tr>
+      <tr>
+      </form>
+      <tr>
+        <td>
+          <h3>Contate-me:</h3>
+          <p>E-mail: camilly_ads@outlook.com<br>
+          Whatsapp: (27) 99897-5022</p><br>
+        </td>
+        </tr>
+        <tr>
+          <td>
+          <h4>Minhas redes socias:</h4>
+          <a href="https://github.com/camillyads" target="_blank"><img class="social-img" 
+            src="image/github.png" alt="link para GitHub" width="30"></a>
+        <a href="https://www.linkedin.com/in/camilly-de-assis-07a709215/" target="_blank"><img class="social-img" 
+                src="image/linkedin.png" alt="link para GitHub" width="30"></a>
+        <a href="https://www.instagram.com/camillyassis__/" target="_blank"><img class="social-img" 
+                src="image/instagram.png" alt="link para GitHub" width="30"></a>  
+        <a href="https://www.facebook.com/camilly.lourencodeassis/" target="_blank"><img class="social-img" 
+                    src="image/facebook.png" alt="link para GitHub" width="30"></a>   
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  <!-- ################################# -->
+
+  <footer class="rodape">
+    <p class="rodape_texto" href="">Copyright &copy; 2022</p>
+    <img class="rodape_imagem" src="image/ifes.png" alt="Logo do Ifes">
+  </footer>
+  
+</body>
+</html>
